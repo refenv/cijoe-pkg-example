@@ -1,0 +1,5 @@
+wheel
+jinja2 >=2.0
+pyyaml >=3.10
+matplotlib
+kmdo
