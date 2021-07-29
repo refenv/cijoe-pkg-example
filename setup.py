@@ -20,7 +20,7 @@ def read(*parts):
 
 setup(
     name="cijoe-pkg-example",
-    version="0.1.45",
+    version="0.2.0",
     description="CIJOE: package for 'example'",
     long_description=read('README.rst'),
     author="Simon A. F. Lund",
@@ -28,7 +28,7 @@ setup(
     url="https://github.com/refenv/cijoe-pkg-example",
     license="Apache License 2.0",
     install_requires=[
-        "cijoe (>=0.1.45)"
+        "cijoe (>=0.2.2)"
     ],
     zip_safe=False,
     data_files=[
