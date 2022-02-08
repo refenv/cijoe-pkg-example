@@ -10,12 +10,9 @@ descr_long: |
 
   Now something else.
 evars: { FOO: 42 }
-hooks: [ sysinf ]
 testsuites:
   - name: example_all
   - name: example_all
     evars: { FOO: 24 }
-    hooks: [ dmesg ]
   - name: example_all
     evars: { FOO: 3 }
-    hooks_pr_tcase: [ dmesg ]
