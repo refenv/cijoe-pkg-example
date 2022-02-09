@@ -10,9 +10,12 @@ descr_long: |
 
   Now something else.
 evars: { FOO: 42 }
+hooks: [ 'example_probe' ]
 testsuites:
   - name: example_all
   - name: example_all
     evars: { FOO: 24 }
+    hooks: [ 'example_probe' ]
   - name: example_all
     evars: { FOO: 3 }
+    hooks_pr_tcase: [ 'example_probe' ]
